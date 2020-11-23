@@ -1,11 +1,44 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+## Sobre a Api
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Api desenvolvida através do framework laravel, que ten o intuito de realizar cadastro de clientes.
+
+## Instalação de Dependências
+
+Após realizar o download do projeto, execute o comando abaixo para que as dependências utilizadas no projeto sejam baixadas:
+
+```
+composer install
+```
+
+## Configuração 
+
+- Realize uma cópia do arquivo .env.example
+- Edite o nome do arquivo para .env
+- Acesse o arquivo e informe as configurações do banco de dados de acordo com o que vai ser utilizado
+
+## Banco de dados
+
+Após configurar o seu arquivo .env execute o comando abaixo para que a estrutura e tabelas sejam criadas na sua base de dados:
+
+```
+php artisan migrate
+```
+
+Após execute o próximo comando para que sejam carregado os dados básicos nas tabelas do banco de dados:
+
+```
+php artisan db:seed
+
+```
+
+## Iniciar
+
+Execute o comando abaixo para que a api possa ser consumida no ambiente de desenvolvimento do front-end do projeto:
+
+```
+php artisan serve --host=localhost
+
+```
 
 ## About Laravel
 
