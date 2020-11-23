@@ -1,6 +1,6 @@
 ## Sobre a Api
 
-Api desenvolvida através do framework laravel, que ten o intuito de realizar cadastro de clientes.
+Api desenvolvida através do framework laravel, que tem o intuito de realizar cadastro de clientes.
 
 ## Instalação de Dependências
 
